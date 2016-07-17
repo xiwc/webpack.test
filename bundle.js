@@ -47,6 +47,7 @@
 	// document.write("It works.");
 
 	__webpack_require__(1);
+	__webpack_require__(1); // webpack ./entry.js bundle.js --module-bind 'css=style!css'
 	document.write(__webpack_require__(5));
 
 /***/ },

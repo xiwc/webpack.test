@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/xiwc/webpack.test/issues"
   },
-  "homepage": "https://github.com/xiwc/webpack.test#readme"
+  "homepage": "https://github.com/xiwc/webpack.test#readme",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  }
 }

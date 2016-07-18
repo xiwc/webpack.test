@@ -47,7 +47,10 @@
 	// document.write("It works.");
 
 	__webpack_require__(1);
-	__webpack_require__(1); // webpack ./entry.js bundle.js --module-bind 'css=style!css'
+	// webpack ./entry.js bundle.js --module-bind 'css=style!css'
+	// Some environments may require double quotes: –module-bind "css=style!css"
+	__webpack_require__(1);
+
 	document.write(__webpack_require__(5));
 
 /***/ },
